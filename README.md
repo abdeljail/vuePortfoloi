@@ -26,4 +26,6 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
 ### sass 
+```
 sass --watch C:\Users\abdo\Desktop\vujs\pr\protfoloi\src\assets\scss\views\:C:\Users\abdo\Desktop\vujs\pr\protfoloi\src\assets\css\
+```
