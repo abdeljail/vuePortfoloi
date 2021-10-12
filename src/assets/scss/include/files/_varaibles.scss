@@ -1,0 +1,47 @@
+// version 1.0.0
+// Variables
+// Variables should follow
+// consistent naming
+// Color system
+// scss-docs-start color-variables
+
+$primary1: #141c3a !default;
+$primary2: #20d29e !default;
+$primary3: #f0f2f4 !default;
+$primary4: #ffffff !default;
+$primary5: #666f70 !default;
+$paragraph: #666f70 !default;
+$border: #f0f2f4 !default;
+$input: #e7eaec !default;
+$label: #84969f !default;
+$border-input: #e7eaec !default;
+$white: #ffffff !default;
+// variables colors and background-color
+$colors: (
+  "p1": $primary1,
+  "p2": $primary2,
+  "p3": $primary3,
+  "p4": $primary4,
+  "p5": $primary5,
+  "w": $white,
+  "b":$border,
+);
+
+// Variables
+// Variables should follow
+// consistent naming
+// font family system
+// scss-docs-start color-variables
+
+$font1: "Dancing Script";
+$font2: "Staatliches";
+$font3: "Hammersmith One";
+$font4:"Avenir, Helvetica, Arial, sans-serif";
+
+// variables font family
+$fontFamily: (
+  "f1": $font1,
+  "f2": $font2,
+  "f3": $font3,
+  "f4": $font4,
+);

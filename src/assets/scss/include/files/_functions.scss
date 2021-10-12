@@ -1,0 +1,13 @@
+@import "./varaibles";
+
+@function font-family($nameFont: null) {
+  @if $nameFont == null {
+    @return "Helvetica ,sans-serif";
+  }
+  @each $name, $f in $fontFamily {
+    @if $name == $nameFont {
+      @return $f;
+    }
+  }
+  @error "Unknown direction #{$nameFont}.";
+}
