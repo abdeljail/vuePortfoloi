@@ -276,15 +276,15 @@ $back: (attachment: fixed, repeat: no-repeat, size: cover);
 
 // media query
 
-@mixin md-350 {
-    @media (max-width: 350px) {
-        @content;
-    }
-}
+// @mixin md-350 {
+//     @media (max-width: 350px) {
+//         @content;
+//     }
+// }
 
 // Start Extra small
 @mixin md-575 {
-    @media (max-width: 576px) {
+    @media (max-width: 575px) {
         @content;
     }
 }

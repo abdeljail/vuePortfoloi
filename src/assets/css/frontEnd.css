@@ -1,88 +1,159 @@
-.fontEnd > div:first-child div:first-child h1, .fontEnd section .container > div:first-child > div:last-child > div > div > div:last-child {
-  color: #141c3a; }
+.FrontEnd > div:first-child div:first-child h1, .FrontEnd section:first-of-type .container > div:first-child > div:last-child > div > div > div:last-child,
+.FrontEnd section:nth-of-type(2) .container > div:first-child > div:last-child > div > div > div:last-child {
+  color: #010531; }
 
-.fontEnd section .container > div:first-child > div:last-child > div > div > div:last-child span {
+.FrontEnd section:first-of-type .container > div:first-child > div:last-child > div > div > div:last-child span,
+.FrontEnd section:nth-of-type(2) .container > div:first-child > div:last-child > div > div > div:last-child span {
   color: #20d29e; }
 
-.fontEnd section .container > div:first-child > div:first-child h2 {
+.FrontEnd section:first-of-type .container > div:first-child > div:first-child h2,
+.FrontEnd section:nth-of-type(2) .container > div:first-child > div:first-child h2 {
   color: #ffffff; }
 
-.fontEnd section .container > div:first-child > div:first-child h2 {
-  background-color: #141c3a; }
+.FrontEnd section:first-of-type .container > div:first-child > div:first-child h2,
+.FrontEnd section:nth-of-type(2) .container > div:first-child > div:first-child h2 {
+  background-color: #010531; }
 
-.fontEnd > div:first-child div:first-child h1 {
+.FrontEnd > div:first-child div:first-child h1 {
   background-color: #f0f2f4; }
 
-.fontEnd section .container > div:first-child > div:last-child > div {
+.FrontEnd section:first-of-type .container > div:first-child > div:last-child > div,
+.FrontEnd section:nth-of-type(2) .container > div:first-child > div:last-child > div {
   padding: 10px 20px; }
 
-.fontEnd, .fontEnd > div:first-child div:first-child, .fontEnd section .container > div:first-child, .fontEnd section .container > div:first-child > div:first-child, .fontEnd section .container > div:first-child > div:last-child {
+.FrontEnd, .FrontEnd > div:first-child div:first-child, .FrontEnd section:first-of-type .container > div:first-child,
+.FrontEnd section:nth-of-type(2) .container > div:first-child, .FrontEnd section:first-of-type .container > div:first-child > div:first-child,
+.FrontEnd section:nth-of-type(2) .container > div:first-child > div:first-child, .FrontEnd section:first-of-type .container > div:first-child > div:last-child,
+.FrontEnd section:nth-of-type(2) .container > div:first-child > div:last-child {
   padding: 20px 0px; }
 
-.fontEnd section .container > div:first-child > div:last-child > div > div > div:last-child {
+.FrontEnd section:first-of-type .container > div:first-child > div:last-child > div > div > div:last-child,
+.FrontEnd section:nth-of-type(2) .container > div:first-child > div:last-child > div > div > div:last-child {
   padding: 10px; }
 
-.fontEnd, .fontEnd > div:first-child div:first-child, .fontEnd section .container > div:first-child, .fontEnd section .container > div:first-child > div:first-child, .fontEnd section .container > div:first-child > div:last-child {
+.FrontEnd, .FrontEnd > div:first-child div:first-child, .FrontEnd section:first-of-type .container > div:first-child,
+.FrontEnd section:nth-of-type(2) .container > div:first-child, .FrontEnd section:first-of-type .container > div:first-child > div:first-child,
+.FrontEnd section:nth-of-type(2) .container > div:first-child > div:first-child, .FrontEnd section:first-of-type .container > div:first-child > div:last-child,
+.FrontEnd section:nth-of-type(2) .container > div:first-child > div:last-child {
   padding: 20px 0; }
 
-.fontEnd section .container > div:first-child > div:last-child > div > div > div:last-child {
+.FrontEnd section:first-of-type .container > div:first-child > div:last-child > div > div > div:last-child,
+.FrontEnd section:nth-of-type(2) .container > div:first-child > div:last-child > div > div > div:last-child {
   font-weight: 700; }
 
-.fontEnd > div:first-child div:first-child h1 {
+.FrontEnd section:first-of-type .container > div:first-child > div:last-child > div > div > div:last-child,
+.FrontEnd section:nth-of-type(2) .container > div:first-child > div:last-child > div > div > div:last-child {
+  font-size: 18px; }
+
+.FrontEnd > div:first-child div:first-child h1 {
   font-size: 40px; }
 
-.fontEnd section .container > div:first-child > div:last-child > div > div > div:last-child {
+.FrontEnd section:first-of-type .container > div:first-child > div:last-child > div > div > div:last-child,
+.FrontEnd section:nth-of-type(2) .container > div:first-child > div:last-child > div > div > div:last-child {
   text-align: center; }
 
-.fontEnd > div:first-child div:first-child h1 {
+.FrontEnd > div:first-child div:first-child h1 {
   text-transform: capitalize; }
 
-.fontEnd > div:first-child div:first-child, .fontEnd section .container > div:first-child > div:first-child, .fontEnd section .container > div:first-child > div:last-child {
+.FrontEnd > div:first-child div:first-child, .FrontEnd section:first-of-type .container > div:first-child > div:first-child,
+.FrontEnd section:nth-of-type(2) .container > div:first-child > div:first-child, .FrontEnd section:first-of-type .container > div:first-child > div:last-child,
+.FrontEnd section:nth-of-type(2) .container > div:first-child > div:last-child {
   display: flex; }
 
-.fontEnd section .container > div:first-child > div:last-child > div > div {
+.FrontEnd section:first-of-type .container > div:first-child > div:last-child > div > div,
+.FrontEnd section:nth-of-type(2) .container > div:first-child > div:last-child > div > div {
   border-width: 2px; }
 
-.fontEnd section .container > div:first-child > div:last-child > div > div {
+.FrontEnd section:first-of-type .container > div:first-child > div:last-child > div > div,
+.FrontEnd section:nth-of-type(2) .container > div:first-child > div:last-child > div > div {
   border-style: solid; }
 
-.fontEnd section .container > div:first-child > div:last-child > div > div {
+.FrontEnd section:first-of-type .container > div:first-child > div:last-child > div > div,
+.FrontEnd section:nth-of-type(2) .container > div:first-child > div:last-child > div > div {
   border-color: #f0f2f4; }
 
-.fontEnd > div:first-child div:first-child h1, .fontEnd section .container > div:first-child > div:first-child h2, .fontEnd section .container > div:first-child > div:last-child > div > div {
+.FrontEnd > div:first-child div:first-child h1, .FrontEnd section:first-of-type .container > div:first-child > div:first-child h2,
+.FrontEnd section:nth-of-type(2) .container > div:first-child > div:first-child h2, .FrontEnd section:first-of-type .container > div:first-child > div:last-child > div > div,
+.FrontEnd section:nth-of-type(2) .container > div:first-child > div:last-child > div > div {
   border-radius: 6px; }
 
-.fontEnd > div:first-child div:first-child, .fontEnd section .container > div:first-child > div:first-child {
+.FrontEnd > div:first-child div:first-child, .FrontEnd section:first-of-type .container > div:first-child > div:first-child,
+.FrontEnd section:nth-of-type(2) .container > div:first-child > div:first-child {
   justify-content: center; }
 
-.fontEnd section .container > div:first-child > div:last-child {
+.FrontEnd section:first-of-type .container > div:first-child > div:last-child,
+.FrontEnd section:nth-of-type(2) .container > div:first-child > div:last-child {
   justify-content: start; }
 
-.fontEnd > div:first-child div:first-child, .fontEnd section .container > div:first-child > div:first-child {
+.FrontEnd > div:first-child div:first-child, .FrontEnd section:first-of-type .container > div:first-child > div:first-child,
+.FrontEnd section:nth-of-type(2) .container > div:first-child > div:first-child {
   align-items: center; }
 
-.fontEnd section .container > div:first-child > div:last-child {
+.FrontEnd section:first-of-type .container > div:first-child > div:last-child,
+.FrontEnd section:nth-of-type(2) .container > div:first-child > div:last-child {
   flex-wrap: wrap; }
 
-.fontEnd section .container > div:first-child > div:last-child > div, .fontEnd section .container > div:first-child > div:last-child > div > div {
+.FrontEnd section:first-of-type .container > div:first-child > div:last-child > div,
+.FrontEnd section:nth-of-type(2) .container > div:first-child > div:last-child > div, .FrontEnd section:first-of-type .container > div:first-child > div:last-child > div > div,
+.FrontEnd section:nth-of-type(2) .container > div:first-child > div:last-child > div > div {
   overflow: hidden; }
 
-.fontEnd section .container > div:first-child > div:last-child > div > div > div:first-child img {
+.FrontEnd section:first-of-type .container > div:first-child > div:last-child > div > div > div:first-child img,
+.FrontEnd section:nth-of-type(2) .container > div:first-child > div:last-child > div > div > div:first-child img {
   height: 100%; }
 
-.fontEnd section .container > div:first-child > div:last-child > div > div > div:first-child, .fontEnd section .container > div:first-child > div:last-child > div > div > div:first-child img, .fontEnd section .container > div:first-child > div:last-child > div > div > div:last-child {
+.FrontEnd section:first-of-type .container > div:first-child > div:last-child > div > div > div:first-child,
+.FrontEnd section:nth-of-type(2) .container > div:first-child > div:last-child > div > div > div:first-child, .FrontEnd section:first-of-type .container > div:first-child > div:last-child > div > div > div:first-child img,
+.FrontEnd section:nth-of-type(2) .container > div:first-child > div:last-child > div > div > div:first-child img, .FrontEnd section:first-of-type .container > div:first-child > div:last-child > div > div > div:last-child,
+.FrontEnd section:nth-of-type(2) .container > div:first-child > div:last-child > div > div > div:last-child {
   width: 100%; }
 
-.fontEnd > div:first-child div:first-child h1 {
+.FrontEnd > div:first-child div:first-child h1 {
   padding: 10px 100px; }
-.fontEnd section {
+.FrontEnd section:first-of-type,
+.FrontEnd section:nth-of-type(2) {
   padding: 40px 0; }
-  .fontEnd section .container > div:first-child > div:first-child h2 {
+  .FrontEnd section:first-of-type .container > div:first-child > div:first-child h2,
+  .FrontEnd section:nth-of-type(2) .container > div:first-child > div:first-child h2 {
     padding: 10px 70px; }
-  .fontEnd section .container > div:first-child > div:last-child > div {
+  .FrontEnd section:first-of-type .container > div:first-child > div:last-child > div,
+  .FrontEnd section:nth-of-type(2) .container > div:first-child > div:last-child > div {
     min-height: 200px;
     width: 25%; }
-    .fontEnd section .container > div:first-child > div:last-child > div > div > div:first-child {
+    .FrontEnd section:first-of-type .container > div:first-child > div:last-child > div > div > div:first-child,
+    .FrontEnd section:nth-of-type(2) .container > div:first-child > div:last-child > div > div > div:first-child {
       height: 200px; }
+
+@media (max-width: 575px) {
+  .FrontEnd > div:first-child div:first-child h1 {
+    padding-left: 50px;
+    padding-right: 50px; }
+  .FrontEnd section:first-of-type .container > div:first-child > div:last-child > div,
+  .FrontEnd section:nth-of-type(2) .container > div:first-child > div:last-child > div {
+    width: 100%; } }
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .FrontEnd section:first-of-type,
+  .FrontEnd section:nth-of-type(2) {
+    padding: 40px 0; }
+    .FrontEnd section:first-of-type .container > div:first-child > div:last-child > div,
+    .FrontEnd section:nth-of-type(2) .container > div:first-child > div:last-child > div {
+      width: 50%; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .FrontEnd section:first-of-type,
+  .FrontEnd section:nth-of-type(2) {
+    padding: 40px 0; }
+    .FrontEnd section:first-of-type .container > div:first-child > div:last-child > div,
+    .FrontEnd section:nth-of-type(2) .container > div:first-child > div:last-child > div {
+      width: 50%; } }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .FrontEnd section:first-of-type,
+  .FrontEnd section:nth-of-type(2) {
+    padding: 40px 0; }
+    .FrontEnd section:first-of-type .container > div:first-child > div:last-child > div,
+    .FrontEnd section:nth-of-type(2) .container > div:first-child > div:last-child > div {
+      width: 33.33%; } }
 
 /*# sourceMappingURL=frontEnd.css.map */

@@ -12,7 +12,7 @@ header .container div div:last-child a, footer .content .infoMe *, footer .conte
   color: #ffffff; }
 
 footer .content .infoMe, footer div:nth-child(2) div:first-child {
-  background-color: #141c3a; }
+  background-color: #010531; }
 
 header .container div div:last-child a, footer, footer .content .infoMe button a:hover {
   background-color: #20d29e; }
@@ -137,9 +137,9 @@ footer .content .infoMe {
   box-sizing: border-box; }
 
 .container {
-  width: 1200px; }
+  width: 1140px; }
 
-@media (max-width: 576px) {
+@media (max-width: 575px) {
   .container {
     width: 100%;
     padding: 0 10px; } }
@@ -165,6 +165,21 @@ footer .content .infoMe {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
+body::-webkit-scrollbar {
+  width: 6px; }
+
+body {
+  scrollbar-width: thin;
+  scrollbar-color: #010531; }
+
+body::-webkit-scrollbar-track {
+  background: #E7EAEC;
+  border-left: 1px solid #ddd; }
+
+body::-webkit-scrollbar-thumb {
+  background-color: #010531;
+  border-radius: 1px; }
+
 p {
   font-size: 18px; }
 
@@ -179,7 +194,7 @@ input {
 
 .infoMe {
   border-radius: 10px;
-  box-shadow: 0px -25px 76px -54px #141c3a; }
+  box-shadow: 0px -25px 76px -54px #010531; }
 
 header .container div div:last-child a:hover {
   transform: translateY(-2px); }
@@ -211,5 +226,33 @@ footer {
     footer div:nth-child(2) div:nth-child(3) a img {
       width: 40px;
       max-width: 40px; }
+
+@media (max-width: 575px) {
+  footer .content .infoMe {
+    padding: 0px; }
+    footer .content .infoMe p {
+      width: auto;
+      padding-left: 0px;
+      padding-right: 0px;
+      font-size: 16px; }
+    footer .content .infoMe button a {
+      width: 280px;
+      max-width: 280px; }
+  footer div:nth-child(2) div:nth-child(2) {
+    text-align: center;
+    font-size: 16px; } }
+
+@media (min-width: 576px) and (max-width: 767px) {
+  footer .content .infoMe {
+    padding: 0px; }
+    footer .content .infoMe p {
+      width: auto;
+      padding-left: 0px;
+      padding-right: 0px;
+      font-size: 16px; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  footer .content .infoMe p {
+    width: auto; } }
 
 /*# sourceMappingURL=headerFooter.css.map */

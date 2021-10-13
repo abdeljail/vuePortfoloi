@@ -1,0 +1,158 @@
+.BackEnd > div:first-child div:first-child h1, .BackEnd section:first-child .container > div:first-child > div:last-child > div > div > div:last-child,
+.BackEnd section:nth-child(2) .container > div:first-child > div:last-child > div > div > div:last-child {
+  color: #010531; }
+
+.BackEnd section:first-child .container > div:first-child > div:last-child > div > div > div:last-child span,
+.BackEnd section:nth-child(2) .container > div:first-child > div:last-child > div > div > div:last-child span {
+  color: #20d29e; }
+
+.BackEnd section:first-child .container > div:first-child > div:first-child h2,
+.BackEnd section:nth-child(2) .container > div:first-child > div:first-child h2 {
+  color: #ffffff; }
+
+.BackEnd section:first-child .container > div:first-child > div:first-child h2,
+.BackEnd section:nth-child(2) .container > div:first-child > div:first-child h2 {
+  background-color: #010531; }
+
+.BackEnd > div:first-child div:first-child h1 {
+  background-color: #f0f2f4; }
+
+.BackEnd section:first-child .container > div:first-child > div:last-child > div,
+.BackEnd section:nth-child(2) .container > div:first-child > div:last-child > div {
+  padding: 10px 20px; }
+
+.BackEnd, .BackEnd > div:first-child div:first-child, .BackEnd section:first-child .container > div:first-child,
+.BackEnd section:nth-child(2) .container > div:first-child, .BackEnd section:first-child .container > div:first-child > div:first-child,
+.BackEnd section:nth-child(2) .container > div:first-child > div:first-child, .BackEnd section:first-child .container > div:first-child > div:last-child,
+.BackEnd section:nth-child(2) .container > div:first-child > div:last-child {
+  padding: 20px 0px; }
+
+.BackEnd section:first-child .container > div:first-child > div:last-child > div > div > div:last-child,
+.BackEnd section:nth-child(2) .container > div:first-child > div:last-child > div > div > div:last-child {
+  padding: 10px; }
+
+.BackEnd, .BackEnd > div:first-child div:first-child, .BackEnd section:first-child .container > div:first-child,
+.BackEnd section:nth-child(2) .container > div:first-child, .BackEnd section:first-child .container > div:first-child > div:first-child,
+.BackEnd section:nth-child(2) .container > div:first-child > div:first-child, .BackEnd section:first-child .container > div:first-child > div:last-child,
+.BackEnd section:nth-child(2) .container > div:first-child > div:last-child {
+  padding: 20px 0; }
+
+.BackEnd section:first-child .container > div:first-child > div:last-child > div > div > div:last-child,
+.BackEnd section:nth-child(2) .container > div:first-child > div:last-child > div > div > div:last-child {
+  font-weight: 700; }
+
+.BackEnd > div:first-child div:first-child h1 {
+  font-size: 40px; }
+
+.BackEnd section:first-child .container > div:first-child > div:last-child > div > div > div:last-child,
+.BackEnd section:nth-child(2) .container > div:first-child > div:last-child > div > div > div:last-child {
+  text-align: center; }
+
+.BackEnd > div:first-child div:first-child h1 {
+  text-transform: capitalize; }
+
+.BackEnd > div:first-child div:first-child, .BackEnd section:first-child .container > div:first-child > div:first-child,
+.BackEnd section:nth-child(2) .container > div:first-child > div:first-child, .BackEnd section:first-child .container > div:first-child > div:last-child,
+.BackEnd section:nth-child(2) .container > div:first-child > div:last-child {
+  display: flex; }
+
+.BackEnd section:first-child .container > div:first-child > div:last-child > div > div,
+.BackEnd section:nth-child(2) .container > div:first-child > div:last-child > div > div {
+  border-width: 2px; }
+
+.BackEnd section:first-child .container > div:first-child > div:last-child > div > div,
+.BackEnd section:nth-child(2) .container > div:first-child > div:last-child > div > div {
+  border-style: solid; }
+
+.BackEnd section:first-child .container > div:first-child > div:last-child > div > div,
+.BackEnd section:nth-child(2) .container > div:first-child > div:last-child > div > div {
+  border-color: #f0f2f4; }
+
+.BackEnd > div:first-child div:first-child h1, .BackEnd section:first-child .container > div:first-child > div:first-child h2,
+.BackEnd section:nth-child(2) .container > div:first-child > div:first-child h2, .BackEnd section:first-child .container > div:first-child > div:last-child > div > div,
+.BackEnd section:nth-child(2) .container > div:first-child > div:last-child > div > div {
+  border-radius: 6px; }
+
+.BackEnd > div:first-child div:first-child, .BackEnd section:first-child .container > div:first-child > div:first-child,
+.BackEnd section:nth-child(2) .container > div:first-child > div:first-child {
+  justify-content: center; }
+
+.BackEnd section:first-child .container > div:first-child > div:last-child,
+.BackEnd section:nth-child(2) .container > div:first-child > div:last-child {
+  justify-content: start; }
+
+.BackEnd > div:first-child div:first-child, .BackEnd section:first-child .container > div:first-child > div:first-child,
+.BackEnd section:nth-child(2) .container > div:first-child > div:first-child {
+  align-items: center; }
+
+.BackEnd section:first-child .container > div:first-child > div:last-child,
+.BackEnd section:nth-child(2) .container > div:first-child > div:last-child {
+  flex-wrap: wrap; }
+
+.BackEnd section:first-child .container > div:first-child > div:last-child > div,
+.BackEnd section:nth-child(2) .container > div:first-child > div:last-child > div, .BackEnd section:first-child .container > div:first-child > div:last-child > div > div,
+.BackEnd section:nth-child(2) .container > div:first-child > div:last-child > div > div {
+  overflow: hidden; }
+
+.BackEnd section:first-child .container > div:first-child > div:last-child > div > div > div:first-child img,
+.BackEnd section:nth-child(2) .container > div:first-child > div:last-child > div > div > div:first-child img {
+  height: 100%; }
+
+.BackEnd section:first-child .container > div:first-child > div:last-child > div > div > div:first-child,
+.BackEnd section:nth-child(2) .container > div:first-child > div:last-child > div > div > div:first-child, .BackEnd section:first-child .container > div:first-child > div:last-child > div > div > div:first-child img,
+.BackEnd section:nth-child(2) .container > div:first-child > div:last-child > div > div > div:first-child img, .BackEnd section:first-child .container > div:first-child > div:last-child > div > div > div:last-child,
+.BackEnd section:nth-child(2) .container > div:first-child > div:last-child > div > div > div:last-child {
+  width: 100%; }
+
+.BackEnd > div:first-child div:first-child h1 {
+  padding: 10px 100px; }
+.BackEnd section:first-child,
+.BackEnd section:nth-child(2) {
+  padding: 40px 0; }
+  .BackEnd section:first-child .container > div:first-child > div:first-child h2,
+  .BackEnd section:nth-child(2) .container > div:first-child > div:first-child h2 {
+    padding: 10px 70px; }
+  .BackEnd section:first-child .container > div:first-child > div:last-child > div,
+  .BackEnd section:nth-child(2) .container > div:first-child > div:last-child > div {
+    min-height: 200px;
+    width: 25%; }
+    .BackEnd section:first-child .container > div:first-child > div:last-child > div > div > div:first-child,
+    .BackEnd section:nth-child(2) .container > div:first-child > div:last-child > div > div > div:first-child {
+      height: 200px; }
+
+@media (max-width: 575px) {
+  .BackEnd > div:first-child div:first-child h1 {
+    padding-left: 50px;
+    padding-right: 50px; }
+  .BackEnd section:first-of-type,
+  .BackEnd section:nth-of-type(2) {
+    padding: 40px 0; }
+    .BackEnd section:first-of-type .container > div:first-child > div:last-child > div,
+    .BackEnd section:nth-of-type(2) .container > div:first-child > div:last-child > div {
+      width: 100%; } }
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .BackEnd section:first-of-type,
+  .BackEnd section:nth-of-type(2) {
+    padding: 40px 0; }
+    .BackEnd section:first-of-type .container > div:first-child > div:last-child > div,
+    .BackEnd section:nth-of-type(2) .container > div:first-child > div:last-child > div {
+      width: 50%; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .BackEnd section:first-of-type,
+  .BackEnd section:nth-of-type(2) {
+    padding: 40px 0; }
+    .BackEnd section:first-of-type .container > div:first-child > div:last-child > div,
+    .BackEnd section:nth-of-type(2) .container > div:first-child > div:last-child > div {
+      width: 50%; } }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .BackEnd section:first-of-type,
+  .BackEnd section:nth-of-type(2) {
+    padding: 40px 0; }
+    .BackEnd section:first-of-type .container > div:first-child > div:last-child > div,
+    .BackEnd section:nth-of-type(2) .container > div:first-child > div:last-child > div {
+      width: 33.33%; } }
+
+/*# sourceMappingURL=backEnd.css.map */

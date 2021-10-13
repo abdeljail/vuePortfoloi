@@ -1,0 +1,149 @@
+.Design > div:first-child div:first-child h1, .Design section:first-of-type .container > div:first-child > div:last-child > div > div > div:last-child,
+.Design section:nth-of-type(2) .container > div:first-child > div:last-child > div > div > div:last-child {
+  color: #010531; }
+
+.Design section:first-of-type .container > div:first-child > div:last-child > div > div > div:last-child span,
+.Design section:nth-of-type(2) .container > div:first-child > div:last-child > div > div > div:last-child span {
+  color: #20d29e; }
+
+.Design section:first-of-type .container > div:first-child > div:first-child h2,
+.Design section:nth-of-type(2) .container > div:first-child > div:first-child h2 {
+  color: #ffffff; }
+
+.Design section:first-of-type .container > div:first-child > div:first-child h2,
+.Design section:nth-of-type(2) .container > div:first-child > div:first-child h2 {
+  background-color: #010531; }
+
+.Design > div:first-child div:first-child h1 {
+  background-color: #f0f2f4; }
+
+.Design, .Design > div:first-child div:first-child, .Design section:first-of-type .container > div:first-child,
+.Design section:nth-of-type(2) .container > div:first-child, .Design section:first-of-type .container > div:first-child > div:first-child,
+.Design section:nth-of-type(2) .container > div:first-child > div:first-child, .Design section:first-of-type .container > div:first-child > div:last-child,
+.Design section:nth-of-type(2) .container > div:first-child > div:last-child {
+  padding: 20px 0px; }
+
+.Design section:first-of-type .container > div:first-child > div:last-child > div > div > div:last-child,
+.Design section:nth-of-type(2) .container > div:first-child > div:last-child > div > div > div:last-child {
+  padding: 10px; }
+
+.Design, .Design > div:first-child div:first-child, .Design section:first-of-type .container > div:first-child,
+.Design section:nth-of-type(2) .container > div:first-child, .Design section:first-of-type .container > div:first-child > div:first-child,
+.Design section:nth-of-type(2) .container > div:first-child > div:first-child, .Design section:first-of-type .container > div:first-child > div:last-child,
+.Design section:nth-of-type(2) .container > div:first-child > div:last-child {
+  padding: 20px 0; }
+
+.Design section:first-of-type .container > div:first-child > div:last-child > div > div > div:last-child,
+.Design section:nth-of-type(2) .container > div:first-child > div:last-child > div > div > div:last-child {
+  font-weight: 700; }
+
+.Design > div:first-child div:first-child h1 {
+  font-size: 40px; }
+
+.Design section:first-of-type .container > div:first-child > div:last-child > div > div > div:last-child,
+.Design section:nth-of-type(2) .container > div:first-child > div:last-child > div > div > div:last-child {
+  text-align: center; }
+
+.Design > div:first-child div:first-child h1 {
+  text-transform: capitalize; }
+
+.Design > div:first-child div:first-child, .Design section:first-of-type .container > div:first-child > div:first-child,
+.Design section:nth-of-type(2) .container > div:first-child > div:first-child, .Design section:first-of-type .container > div:first-child > div:last-child,
+.Design section:nth-of-type(2) .container > div:first-child > div:last-child {
+  display: flex; }
+
+.Design section:first-of-type .container > div:first-child > div:last-child > div > div,
+.Design section:nth-of-type(2) .container > div:first-child > div:last-child > div > div {
+  border-width: 2px; }
+
+.Design section:first-of-type .container > div:first-child > div:last-child > div > div,
+.Design section:nth-of-type(2) .container > div:first-child > div:last-child > div > div {
+  border-style: solid; }
+
+.Design section:first-of-type .container > div:first-child > div:last-child > div > div,
+.Design section:nth-of-type(2) .container > div:first-child > div:last-child > div > div {
+  border-color: #f0f2f4; }
+
+.Design > div:first-child div:first-child h1, .Design section:first-of-type .container > div:first-child > div:first-child h2,
+.Design section:nth-of-type(2) .container > div:first-child > div:first-child h2, .Design section:first-of-type .container > div:first-child > div:last-child > div > div,
+.Design section:nth-of-type(2) .container > div:first-child > div:last-child > div > div {
+  border-radius: 6px; }
+
+.Design > div:first-child div:first-child, .Design section:first-of-type .container > div:first-child > div:first-child,
+.Design section:nth-of-type(2) .container > div:first-child > div:first-child, .Design section:first-of-type .container > div:first-child > div:last-child,
+.Design section:nth-of-type(2) .container > div:first-child > div:last-child {
+  justify-content: center; }
+
+.Design > div:first-child div:first-child, .Design section:first-of-type .container > div:first-child > div:first-child,
+.Design section:nth-of-type(2) .container > div:first-child > div:first-child, .Design section:first-of-type .container > div:first-child > div:last-child,
+.Design section:nth-of-type(2) .container > div:first-child > div:last-child {
+  align-items: center; }
+
+.Design section:first-of-type .container > div:first-child > div:last-child,
+.Design section:nth-of-type(2) .container > div:first-child > div:last-child {
+  flex-wrap: wrap; }
+
+.Design section:first-of-type .container > div:first-child > div:last-child > div,
+.Design section:nth-of-type(2) .container > div:first-child > div:last-child > div, .Design section:first-of-type .container > div:first-child > div:last-child > div > div,
+.Design section:nth-of-type(2) .container > div:first-child > div:last-child > div > div {
+  overflow: hidden; }
+
+.Design section:first-of-type .container > div:first-child > div:last-child > div > div > div:first-child img,
+.Design section:nth-of-type(2) .container > div:first-child > div:last-child > div > div > div:first-child img {
+  height: 100%; }
+
+.Design section:first-of-type .container > div:first-child > div:last-child > div > div > div:first-child,
+.Design section:nth-of-type(2) .container > div:first-child > div:last-child > div > div > div:first-child, .Design section:first-of-type .container > div:first-child > div:last-child > div > div > div:first-child img,
+.Design section:nth-of-type(2) .container > div:first-child > div:last-child > div > div > div:first-child img, .Design section:first-of-type .container > div:first-child > div:last-child > div > div > div:last-child,
+.Design section:nth-of-type(2) .container > div:first-child > div:last-child > div > div > div:last-child {
+  width: 100%; }
+
+.Design > div:first-child div:first-child h1 {
+  padding: 10px 100px; }
+.Design section:first-of-type,
+.Design section:nth-of-type(2) {
+  padding: 40px 0; }
+  .Design section:first-of-type .container > div:first-child > div:first-child h2,
+  .Design section:nth-of-type(2) .container > div:first-child > div:first-child h2 {
+    padding: 10px 70px; }
+  .Design section:first-of-type .container > div:first-child > div:last-child > div,
+  .Design section:nth-of-type(2) .container > div:first-child > div:last-child > div {
+    min-height: 200px;
+    width: 25%; }
+    .Design section:first-of-type .container > div:first-child > div:last-child > div > div > div:first-child,
+    .Design section:nth-of-type(2) .container > div:first-child > div:last-child > div > div > div:first-child {
+      height: 200px; }
+
+@media (max-width: 575px) {
+  .Design > div:first-child div:first-child h1 {
+    padding-left: 50px;
+    padding-right: 50px; }
+  .Design section:first-of-type .container > div:first-child > div:last-child > div,
+  .Design section:nth-of-type(2) .container > div:first-child > div:last-child > div {
+    width: 100%; } }
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .Design section:first-of-type,
+  .Design section:nth-of-type(2) {
+    padding: 40px 0; }
+    .Design section:first-of-type .container > div:first-child > div:last-child > div,
+    .Design section:nth-of-type(2) .container > div:first-child > div:last-child > div {
+      width: 50%; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .Design section:first-of-type,
+  .Design section:nth-of-type(2) {
+    padding: 40px 0; }
+    .Design section:first-of-type .container > div:first-child > div:last-child > div,
+    .Design section:nth-of-type(2) .container > div:first-child > div:last-child > div {
+      width: 50%; } }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .Design section:first-of-type,
+  .Design section:nth-of-type(2) {
+    padding: 40px 0; }
+    .Design section:first-of-type .container > div:first-child > div:last-child > div,
+    .Design section:nth-of-type(2) .container > div:first-child > div:last-child > div {
+      width: 33.33%; } }
+
+/*# sourceMappingURL=design.css.map */

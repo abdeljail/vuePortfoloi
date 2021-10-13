@@ -3,7 +3,7 @@
 @import "../include/files/mixin";
 @import "../include/files/functions";
 
-.FrontEnd {
+.BackEnd {
   @extend %padding-20-0;
   > div:first-child {
     div:first-child {
@@ -19,9 +19,9 @@
       }
     }
   }
-  section:first-of-type,
-  section:nth-of-type(2) {
-    padding: 40px 0;
+  section:first-child,
+  section:nth-child(2) {
+    padding: 40px 0 ;
     .container {
       > div:first-child {
         @extend %padding-20-0;
@@ -63,7 +63,6 @@
                 @extend %center;
                 @extend %color-p1;
                 @extend %font-weight-700;
-                @extend %font-size-18;
                 span {
                   @extend %color-p2;
                 }
@@ -75,8 +74,7 @@
     }
   }
 }
-
-.FrontEnd {
+.BackEnd {
   @include md-575 {
     > div:first-child {
       div:first-child {
@@ -88,6 +86,7 @@
     }
     section:first-of-type,
     section:nth-of-type(2) {
+      padding: 40px 0;
       .container {
         > div:first-child {
           > div:last-child {
@@ -100,7 +99,7 @@
     }
   }
 }
-.FrontEnd {
+.BackEnd {
   @include md-576-767 {
     section:first-of-type,
     section:nth-of-type(2) {
@@ -117,7 +116,7 @@
     }
   }
 }
-.FrontEnd {
+.BackEnd {
   @include md-768-991 {
     section:first-of-type,
     section:nth-of-type(2) {
@@ -134,7 +133,7 @@
     }
   }
 }
-.FrontEnd {
+.BackEnd {
   @include md-992-1199 {
     section:first-of-type,
     section:nth-of-type(2) {

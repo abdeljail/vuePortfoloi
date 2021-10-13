@@ -11,6 +11,23 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+body::-webkit-scrollbar {
+  width: 6px; }
+
+body {
+  scrollbar-width: thin;
+  scrollbar-color: #010531; }
+
+body::-webkit-scrollbar-track {
+  background: #E7EAEC;
+  border-left: 1px solid #ddd; }
+
+body::-webkit-scrollbar-thumb {
+  background-color: #010531;
+  border-radius: 1px; }
+
+
 p {
   font-size: 18px;
 }
@@ -151,5 +168,67 @@ footer {
         }
       }
     }
+  }
+}
+
+footer {
+  @include md-575 {
+    .content {
+      .infoMe {
+        padding: 0px;
+        p {
+          width: auto;
+          padding-left: 0px;
+          padding-right: 0px;
+          font-size: 16px;
+        }
+        button {
+          a {
+            width: 280px;
+            max-width: 280px;
+          }
+        }
+      }
+    }
+    div:nth-child(2) {
+      div:nth-child(2){
+        text-align: center;
+        font-size: 16px;
+      }
+    }
+  }
+}
+footer {
+  @include md-576-767 {
+    .content {
+      .infoMe {
+        padding: 0px;
+        p {
+          width: auto;
+          padding-left: 0px;
+          padding-right: 0px;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+footer {
+  @include md-768-991 {
+    .content {
+      .infoMe {
+        p {
+          width: auto;
+        }
+      }
+    }
+  }
+}
+footer {
+  @include md-992-1199 {
+  }
+}
+footer {
+  @include md-1400 {
   }
 }

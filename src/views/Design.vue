@@ -1,5 +1,5 @@
 <template>
-  <div class="fontEnd">
+  <div class="Design">
     <Dfb h1="Back-End" p="jkjkjkjk" />
     <Box name="Sckills" :BoxSckills="BoxSckills" />
     <Box name="Dev Tools" :BoxSckills="BoxDevTools" />
@@ -50,5 +50,5 @@ export default {
 };
 </script>
 <style scoped>
-@import "../assets/css/frontEnd.css";
+@import "../assets/css/design.css";
 </style>

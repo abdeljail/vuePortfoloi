@@ -1,5 +1,5 @@
 <template>
-  <div class="fontEnd">
+  <div class="FrontEnd" id="FontEnd">
     <Dfb h1="Front-End" p="jkjkjkjk" />
     <Box name="Sckills" :BoxSckills="BoxSckills" />
     <Box name="Dev Tools" :BoxSckills="BoxDevTools" />
