@@ -6,7 +6,7 @@
           <InfoMe
             h2="Start a project"
             p="Interested in working together? We should queue up a chat. I’ll buy the coffee."
-            :btn="{ path: '/Contact', text: 'Start A Conversation' }"
+            :btn="{ path: '/Conversation', text: 'Start A Conversation' }"
           />
         </div>
       </div>

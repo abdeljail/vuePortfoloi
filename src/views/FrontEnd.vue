@@ -3,16 +3,19 @@
     <Dfb h1="Front-End" p="jkjkjkjk" />
     <Box name="Sckills" :BoxSckills="BoxSckills" />
     <Box name="Dev Tools" :BoxSckills="BoxDevTools" />
+    <ChangeBtn :ChangeBtn="ChangeBtn"/>
   </div>
 </template>
 <script>
 import Box from "@/components/views/Box.vue";
 import Dfb from "@/components/views/Dfb.vue";
+import ChangeBtn from "@/components/views/ChangeBtn.vue";
 export default {
   name: "fontEnd",
   components: {
     Box,
     Dfb,
+    ChangeBtn,
   },
   data() {
     return {
@@ -66,6 +69,16 @@ export default {
         {
           name: "cmd",
           srcImg: require("../assets/images/cmd.png"),
+        },
+      ],
+      ChangeBtn: [
+        {
+          path: "/BackEnd",
+          text: "BackEnd",
+        },
+        {
+          path: "/Design",
+          text: "Design",
         },
       ],
     };

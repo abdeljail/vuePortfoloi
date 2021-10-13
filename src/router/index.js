@@ -5,6 +5,7 @@ import Contact from "../views/Contact.vue";
 import FrontEnd from "../views/FrontEnd.vue";
 import BackEnd from "../views/BackEnd.vue";
 import Design from "../views/Design.vue";
+import Conversation from "../views/Conversation.vue";
 Vue.use(VueRouter);
 const routes = [
   {
@@ -31,6 +32,11 @@ const routes = [
     path: "/Design",
     name: "Design",
     component: Design,
+  },
+  {
+    path: "/Conversation",
+    name: "Conversation",
+    component: Conversation,
   },
 ];
 
