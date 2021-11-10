@@ -30,27 +30,11 @@ export default {
         },
         {
           name: "mysql",
-          srcImg: require("../assets/images/mysql.png"),
+          srcImg: require("../assets/images/my.jpg"),
         },
         {
           name: "mongo db",
           srcImg: require("../assets/images/db.png"),
-        },
-        {
-          name: "bootstrap",
-          srcImg: require("../assets/images/bootstrab.png"),
-        },
-        {
-          name: "sass",
-          srcImg: require("../assets/images/sass.png"),
-        },
-        {
-          name: "jquery",
-          srcImg: require("../assets/images/jquery.png"),
-        },
-        {
-          name: "vuexjs",
-          srcImg: require("../assets/images/vuex.png"),
         },
       ],
       BoxDevTools: [

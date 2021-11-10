@@ -6,11 +6,7 @@
           <Btn :Btn="bottun" />
         </div>
       </div>
-      <div>
-        <div>
-          <Btn :Btn="{ path: '/Contact', text: 'Contact Me' }" />
-        </div>
-      </div>
+      <div></div>
     </div>
   </section>
 </template>
