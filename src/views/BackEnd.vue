@@ -32,6 +32,10 @@ export default {
           srcImg: require("../assets/images/nodejs.png"),
         },
         {
+          name: "nodejs ",
+          srcImg: require("../assets/images/express.jpg"),
+        },
+        {
           name: "mysql",
           srcImg: require("../assets/images/my.jpg"),
         },
