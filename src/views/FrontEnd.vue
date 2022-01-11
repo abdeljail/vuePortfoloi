@@ -52,6 +52,10 @@ export default {
           srcImg: require("../assets/images/jquery.png"),
         },
         {
+          name: "ajax",
+          srcImg: require("../assets/images/ajax.jpg"),
+        },
+        {
           name: "vuexjs",
           srcImg: require("../assets/images/vuex.png"),
         },
