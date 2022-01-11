@@ -3,7 +3,7 @@
 @import "../include/files/mixin";
 @import "../include/files/functions";
 
-.BackEnd {
+.BackEnd {   
   @extend %padding-20-0;
   > div:first-child {
     div:first-child {
@@ -73,6 +73,41 @@
       }
     }
   }
+  section:last-of-type {
+    @extend %padding-20;
+    @extend %background-color-b;
+    .container {
+      > div {
+        @extend %display-flex;
+        @extend %align-content-center;
+        @extend %justify-content-center;
+        @extend %padding-20;
+        @extend %flex-wrap-wrap;
+        button {
+          @extend %padding-10-20;
+          @extend %margin-10;
+          @extend %background-color-p2;
+          @extend %transition-property-all;
+          @extend %transition-timing-function-ease-in;
+          @extend %transition-duration-3;
+          @extend %border-color-p2;
+          @extend %border-width-2;
+          @extend %border-style-solid;
+          width: 300px;
+          border-radius: 25px;
+          a {
+            @extend %color-b;
+          }
+          &:hover {
+            @extend %background-color-b;
+            a {
+              @extend %color-p2;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 .BackEnd {
   @include md-575 {
@@ -93,6 +128,15 @@
             > div {
               width: 100%;
             }
+          }
+        }
+      }
+    }
+    section:last-of-type {
+      .container{
+        >.box-btn{
+          button{
+            width: 260px !important
           }
         }
       }

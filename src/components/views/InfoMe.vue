@@ -2,10 +2,7 @@
   <div>
     <h2>{{ h2 }}</h2>
     <p>{{ p }}</p>
-    <Btn
-      v-if="typeof btn === 'object'"
-      :Btn="btn"
-    />
+    <Btn v-if="typeof btn === 'object'" :Btn="btn" />
   </div>
 </template>
 <script>
@@ -20,7 +17,6 @@ export default {
   components: {
     Btn,
   },
-  created(){
-  }
+  created() {},
 };
 </script>

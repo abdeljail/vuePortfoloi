@@ -1,12 +1,11 @@
 <template>
   <section>
     <div class="container">
-      <div>
+      <div class="box-btn">
         <div v-for="(bottun, index) in ChangeBtn" :key="index">
           <Btn :Btn="bottun" />
         </div>
       </div>
-      <div></div>
     </div>
   </section>
 </template>

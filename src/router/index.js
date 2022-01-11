@@ -5,7 +5,7 @@ import Contact from "../views/Contact.vue";
 import FrontEnd from "../views/FrontEnd.vue";
 import BackEnd from "../views/BackEnd.vue";
 import Design from "../views/Design.vue";
-import Conversation from "../views/Conversation.vue";
+import NotFound from "../views/notFound.vue";
 Vue.use(VueRouter);
 const routes = [
   {
@@ -34,12 +34,11 @@ const routes = [
     component: Design,
   },
   {
-    path: "/Conversation",
-    name: "Conversation",
-    component: Conversation,
+    path: "*",
+    name: "NotFound",
+    component: NotFound,
   },
 ];
-
 
 const router = new VueRouter({
   mode: "history",

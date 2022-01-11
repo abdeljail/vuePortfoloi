@@ -1,6 +1,9 @@
 <template>
   <div class="FrontEnd">
-    <Dfb h1="Back-End" p="jkjkjkjk" />
+    <Dfb
+      h1="Back-End"
+      p="I value simple content structure, clean code , and thoughtful interactions."
+    />
     <Box name="Sckills" :BoxSckills="BoxSckills" />
     <Box name="Dev Tools" :BoxSckills="BoxDevTools" />
     <ChangeBtn :ChangeBtn="ChangeBtn" />
@@ -70,5 +73,5 @@ export default {
 };
 </script>
 <style scoped>
-@import "../assets/css/frontEnd.css";
+@import "../assets/css/backEnd.css";
 </style>

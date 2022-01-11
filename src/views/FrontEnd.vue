@@ -1,9 +1,12 @@
 <template>
   <div class="FrontEnd" id="FontEnd">
-    <Dfb h1="Front-End" p="jkjkjkjk" />
+    <Dfb
+      h1="Front-End"
+      p="I like to code things from scratch, and enjoy bringing ideas to life in the browser."
+    />
     <Box name="Sckills" :BoxSckills="BoxSckills" />
     <Box name="Dev Tools" :BoxSckills="BoxDevTools" />
-    <ChangeBtn :ChangeBtn="ChangeBtn"/>
+    <ChangeBtn :ChangeBtn="ChangeBtn" />
   </div>
 </template>
 <script>

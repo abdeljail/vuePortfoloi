@@ -1,6 +1,9 @@
 <template>
   <div class="Design">
-    <Dfb h1="Back-End" p="jkjkjkjk" />
+    <Dfb
+      h1="Back-End"
+      p="I value simple content structure, clean design patterns, and thoughtful interactions."
+    />
     <Box name="Sckills" :BoxSckills="BoxSckills" />
     <Box name="Dev Tools" :BoxSckills="BoxDevTools" />
     <ChangeBtn :ChangeBtn="ChangeBtn" />

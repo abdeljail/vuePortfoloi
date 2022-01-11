@@ -109,6 +109,17 @@ $size_padding: 0, 2, 4, 5, 6, 8, 10, 12, 14, 15, 16, 20;
 
 // End loop list margin
 
+
+// End loop list FontFamily
+// color 
+// Start loop list background-color
+@each $name, $Font in $fontFamily {
+    %fontFamily-#{$name} {
+        font-family: $Font;
+    }
+}
+
+
 //font-weight
 // Start loop list font-weihgt
 $font-weight: 100, 200, 300, 400, 500, 600, 700, 800, 900, bold;

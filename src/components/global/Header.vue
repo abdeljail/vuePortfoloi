@@ -8,8 +8,7 @@
           </router-link>
         </div>
         <div>
-          <router-link :to="isPath" v-html="getRes()">
-          </router-link>
+          <router-link :to="isPath" v-html="getRes()"> </router-link>
         </div>
       </div>
     </div>

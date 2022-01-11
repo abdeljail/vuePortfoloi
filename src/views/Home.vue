@@ -15,7 +15,7 @@
         <div class="content">
           <div class="infoMe">
             <InfoMe
-              h2="My Startup Projects"
+              h2="Hi, I’m Abdeljalil Khalal Nice to meet you."
               p="Since Beginning My Journey As A Freelance Developer Nearly 1 Year Ago, I Have Created Some Websites , I Work Hard Every Day To Improve His Skill And Learn Any New Skill In Developing Web"
             />
           </div>
@@ -43,8 +43,8 @@
         <div class="content">
           <div>
             <InfoMe
-              h2="My Startup Projects"
-              p="I'm A Bit Of A Digital Product Junky. Over The Years, I've Used Hundreds Of Web And Mobile Apps In Different Industries And Verticals. Eventually, I Decided That It Would Be A Fun Challenge To Try Designing And Building My Own."
+              h2="My Projects"
+              p="I'm A Bit Of A Digital Product Junkie, I Decided That It Would Be A Fun Challenge To Try Designing And Building App Web"
             />
           </div>
           <div class="Pack">
@@ -90,6 +90,7 @@ export default {
           strong: "Little Experience",
           p: "I value simple content structure, clean design patterns, and thoughtful interactions.",
           image: require("../assets/images/quote2.png"),
+          urlPoject: null,
         },
         {
           name: "Front-End Developer",
@@ -97,6 +98,7 @@ export default {
           strong: "Specialist",
           p: "I like to code things from scratch, and enjoy bringing ideas to life in the browser.",
           image: require("../assets/images/quote1.png"),
+          urlPoject: null,
         },
         {
           name: "Back-End Developer",
@@ -104,6 +106,7 @@ export default {
           strong: "Little Experience",
           p: "I value simple content structure, clean code , and thoughtful interactions.",
           image: require("../assets/images/quote2.png"),
+          urlPoject: null,
         },
       ],
       Btns: [
@@ -125,39 +128,39 @@ export default {
           name: "SaphirInoovation",
           icon: require("../assets/images/abdo.png"),
           strong: null,
-          p: "I value simple content structure, clean design patterns, and thoughtful interactions.",
+          p: "",
           image: null,
+          urlPoject: "https://github.com/abdeljail/Saphair-Innovation",
         },
         {
           name: "Site E-Learning",
           icon: require("../assets/images/book.png"),
           strong: null,
-          p: "I like to code things from scratch, and enjoy bringing ideas to life in the browser.",
+          p: "",
           image: null,
+          urlPoject: "https://github.com/abdeljail/new-NO9TA",
         },
         {
           name: "No9ta",
           icon: require("../assets/images/no9ta.png"),
           strong: null,
-          p: "I value simple content structure, clean code , and thoughtful interactions.",
+          p: "",
           image: null,
+          urlPoject: "https://github.com/abdeljail/new-NO9TA",
         },
         {
           name: "To Do List",
           icon: require("../assets/images/to-do-list.png"),
           strong: null,
-          p: "I value simple content structure, clean code , and thoughtful interactions.",
+          p: "",
           image: null,
+          urlPoject: "https://github.com/abdeljail/TodoDev",
         },
       ],
     };
   },
-  beforeCreate() {
-    // console.log("beforeCreate");
-  },
-  created() {
-    // console.log("created");
-  },
+  beforeCreate() {},
+  created() {},
   methods: {},
   computed: {},
 };

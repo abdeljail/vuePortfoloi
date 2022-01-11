@@ -2,7 +2,6 @@
 @import "../include/files/extend";
 @import "../include/files/mixin";
 @import "../include/files/functions";
-
 h1 {
   @extend %capitalize;
   @extend %font-size-80;
@@ -16,10 +15,15 @@ h1 {
       @include min-height(500);
       @extend %flex-direction-column;
       @extend %margin-bottom-20;
+      h1 {
+        @extend %font-weight-bold;
+        @extend %fontFamily-f1;
+      }
       p {
         @extend %padding-20;
-        @extend %font-size-30;
+        @extend %font-size-26;
         @extend %color-p5;
+        @extend %center;
       }
       img {
         @extend %margin-top-20;
@@ -212,7 +216,7 @@ h1 {
       > div.Pack {
         @include flex-JC-AI-center;
         @extend %width-100;
-        margin-top: 100px;
+        margin-top: 60px;
         box-shadow: 0px 10px 13px -9px #e1e1e1;
         > * {
           width: 33.33%;
@@ -253,7 +257,7 @@ h1 {
     @include height(2);
     @include min-height(2);
     @extend %background-color-p3;
-    margin: 260px 0px 120px;
+    margin: 360px 0px 120px;
     border: none;
   }
   section.s-5 {
@@ -300,6 +304,365 @@ h1 {
           }
         }
       }
+    }
+  }
+}
+
+.home {
+  @include md-575 {
+    .container {
+      div {
+        h1 {
+          font-size: 34px;
+        }
+        p {
+          font-size: 19px !important;
+        }
+        img {
+          width: 100px;
+          max-width: 100px;
+          vertical-align: middle;
+          -moz-vertical-align: middle;
+          -ms-vertical-align: middle;
+          -o-vertical-align: middle;
+          -webkit-vertical-align: middle;
+        }
+      }
+    }
+    section:first-of-type {
+      .container {
+        .content {
+          .infoMe {
+            padding: 4px !important;
+            h2 {
+              font-size: 18px;
+            }
+            p {
+              font-size: 12px !important;
+              width: auto !important;
+              padding-left: 0;
+              padding-right: 0;
+            }
+          }
+          .Pack {
+            margin-bottom: -600px;
+            flex-wrap: wrap;
+            justify-content: stretch;
+            > div {
+              width: 100%;
+              img {
+                width: 60px;
+                max-width: 60px;
+              }
+              h3 {
+                font-size: 17px;
+              }
+              strong {
+                font-size: 16px;
+              }
+              p {
+                font-size: 15px !important;
+              }
+            }
+          }
+        }
+      }
+    }
+    section:nth-child(3) {
+      height: 500px;
+      max-height: 500px;
+      margin-top: 900px;
+      .container {
+        h2 {
+          font-size: 20px;
+          margin-bottom: 30px;
+        }
+        .content {
+          justify-content: center;
+          flex-direction: column;
+          > div:first-child {
+            order: 2;
+            img {
+              width: 320px;
+              max-width: 320px;
+            }
+          }
+          > div:last-child {
+            button {
+              a {
+                width: 290px;
+                max-width: 290px;
+              }
+            }
+          }
+        }
+      }
+    }
+    section:nth-child(4) {
+      .content {
+        > div:first-child {
+          padding-left: 0;
+          padding-right: 0;
+          > div {
+            p {
+              width: auto;
+              padding-left: 0;
+              padding-right: 0;
+            }
+          }
+        }
+        .Pack {
+          margin-bottom: -600px;
+          flex-wrap: wrap;
+          justify-content: stretch;
+          > div {
+            width: 100%;
+            img {
+              width: 60px;
+              max-width: 60px;
+            }
+            h3 {
+              font-size: 17px;
+            }
+            strong {
+              font-size: 16px;
+            }
+            p {
+              font-size: 15px !important;
+            }
+          }
+        }
+      }
+    }
+    hr {
+      margin-top: 1002px;
+    }
+    section.s-5 {
+      .content {
+        div:first-child {
+          h2 {
+            font-size: 18px;
+          }
+          p {
+            font-size: 15px !important;
+          }
+        }
+        button {
+          margin-top: 12px;
+        }
+      }
+    }
+  }
+}
+.home {
+  @include md-576-767 {
+    .container {
+      div {
+        h1 {
+          font-size: 50px;
+        }
+        p {
+          font-size: 19px !important;
+        }
+      }
+    }
+    section:first-of-type {
+      .container {
+        .content {
+          .infoMe {
+            padding: 4px !important;
+            p {
+              font-size: 14px !important;
+              width: auto !important;
+              padding-left: 0;
+              padding-right: 0;
+            }
+          }
+          .Pack {
+            margin-bottom: -400px;
+            flex-wrap: wrap;
+            justify-content: stretch;
+            > div {
+              width: 50%;
+              img {
+                width: 80px;
+                max-width: 80px;
+              }
+              h3 {
+                font-size: 19px;
+              }
+              strong {
+                font-size: 17px;
+              }
+              p {
+                font-size: 16px !important;
+              }
+            }
+          }
+        }
+      }
+    }
+    section:nth-child(3) {
+      margin-top: 900px;
+      .container {
+        h2 {
+          font-size: 20px;
+          margin-bottom: 30px;
+        }
+        .content {
+          justify-content: center;
+          > div:first-child {
+            img {
+              width: 320px;
+              max-width: 320px;
+            }
+          }
+          > div:last-child {
+            button {
+              a {
+                width: 230px;
+                max-width: 230px;
+              }
+            }
+          }
+        }
+      }
+    }
+    section:nth-child(4) {
+      .content {
+        > div:first-child {
+          padding-left: 0;
+          padding-right: 0;
+          > div {
+            p {
+              width: auto;
+              font-size: 15px !important;
+              padding-left: 0;
+              padding-right: 0;
+            }
+          }
+        }
+        .Pack {
+          margin-bottom: -600px;
+          flex-wrap: wrap;
+          justify-content: stretch;
+          > div {
+            width: 50%;
+            img {
+              width: 60px;
+              max-width: 60px;
+            }
+            h3 {
+              font-size: 17px;
+            }
+            strong {
+              font-size: 16px;
+            }
+            p {
+              font-size: 15px !important;
+            }
+          }
+        }
+      }
+    }
+    hr {
+      margin-top: 590px;
+    }
+  }
+}
+.home {
+  @include md-768-991 {
+    section:first-of-type {
+      .container {
+        .content {
+          .infoMe {
+            padding: 4px !important;
+            p {
+              font-size: 18px !important;
+              width: auto !important;
+              padding-left: 0;
+              padding-right: 0;
+            }
+          }
+          .Pack {
+            > div {
+              img {
+                width: 60px;
+                max-width: 60px;
+              }
+              h3 {
+                font-size: 17px;
+              }
+              strong {
+                font-size: 16px;
+              }
+              p {
+                font-size: 15px !important;
+              }
+            }
+          }
+        }
+      }
+    }
+    section:nth-child(3) {
+      margin-top: 500px;
+      .container {
+        .content {
+          > div:first-child {
+            img {
+              width: 290px;
+              max-width: 290px;
+            }
+          }
+          > div:last-child {
+            button {
+              a {
+                width: 290px;
+                max-width: 290px;
+              }
+            }
+          }
+        }
+      }
+    }
+    section:nth-child(4) {
+      .content {
+        > div:first-child {
+          padding-left: 0;
+          padding-right: 0;
+          > div {
+            p {
+              width: auto;
+              font-size: 18px !important;
+              padding-left: 0;
+              padding-right: 0;
+            }
+          }
+        }
+        .Pack {
+          margin-bottom: -600px;
+          flex-wrap: wrap;
+          justify-content: stretch !important;
+          > div {
+            img {
+              width: 60px;
+              max-width: 60px;
+            }
+            h3 {
+              font-size: 17px;
+            }
+            strong {
+              font-size: 16px;
+            }
+            p {
+              font-size: 15px !important;
+            }
+          }
+        }
+      }
+    }
+    hr {
+      margin-top: 580px;
     }
   }
 }

@@ -21,7 +21,6 @@
   }
   section:first-of-type,
   section:nth-of-type(2) {
-    padding: 40px 0;
     .container {
       > div:first-child {
         @extend %padding-20-0;
@@ -74,6 +73,42 @@
       }
     }
   }
+  section:last-of-type {
+    @extend %padding-20;
+    @extend %background-color-b;
+    .container {
+      > .box-btn {
+        @extend %display-flex;
+        @extend %align-content-center;
+        @extend %justify-content-center;
+        @extend %flex-wrap-wrap;
+        @extend %padding-20;
+        @extend %flex-wrap-wrap;
+        button {
+          @extend %padding-10-20;
+          @extend %margin-10;
+          @extend %background-color-p2;
+          @extend %transition-property-all;
+          @extend %transition-timing-function-ease-in;
+          @extend %transition-duration-3;
+          @extend %border-color-p2;
+          @extend %border-width-2;
+          @extend %border-style-solid;
+          width: 300px;
+          border-radius: 25px;
+          a {
+            @extend %color-b;
+          }
+          &:hover {
+            @extend %background-color-b;
+            a {
+              @extend %color-p2;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 .FrontEnd {
@@ -94,6 +129,15 @@
             > div {
               width: 100%;
             }
+          }
+        }
+      }
+    }
+    section:last-of-type {
+      .container {
+        > .box-btn {
+          button {
+            width: 260px !important;
           }
         }
       }
