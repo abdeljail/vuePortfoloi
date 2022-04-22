@@ -2,9 +2,9 @@
   <div class="home">
     <div class="container">
       <div>
-        <h1>Front-End Developer</h1>
+        <h1>Full Stack Developer</h1>
         <p>
-          Im Developer Front-end and code beautifully simple things, and I love
+          Im Developer Full Stack and code beautifully simple things, and I love
           what I do.
         </p>
         <img :src="srcAvatar" alt="image avater" />
@@ -16,7 +16,7 @@
           <div class="infoMe">
             <InfoMe
               h2="Hi, I’m Abdeljalil Khalal Nice to meet you."
-              p="Since Beginning My Journey As A Freelance Developer Nearly 1 Year Ago, I Have Created Some Websites , I Work Hard Every Day To Improve His Skill And Learn Any New Skill In Developing Web"
+              p="Since Beginning My Journey As A Developer web 1 Year Ago, I Have Created Some Websites, I Work Hard Every Day To Improve My Skill And Learn Any New Skill In Developing Web "
             />
           </div>
           <div class="Pack">
@@ -44,7 +44,7 @@
           <div>
             <InfoMe
               h2="My Projects"
-              p="I'm A Bit Of A Digital Product Junkie, I Decided That It Would Be A Fun Challenge To Try Designing And Building App Web"
+              p="I'm a bit addicted to digital products, so I decided that trying to design and build web apps would be a fun challenge, the projects I've built"
             />
           </div>
           <div class="Pack">
@@ -95,7 +95,7 @@ export default {
         {
           name: "Front-End Developer",
           icon: require("../assets/images/ux.png"),
-          strong: "Specialist",
+          strong: null,
           p: "I like to code things from scratch, and enjoy bringing ideas to life in the browser.",
           image: require("../assets/images/quote1.png"),
           urlPoject: null,
@@ -103,7 +103,7 @@ export default {
         {
           name: "Back-End Developer",
           icon: require("../assets/images/backend.png"),
-          strong: "Little Experience",
+          strong: null,
           p: "I value simple content structure, clean code , and thoughtful interactions.",
           image: require("../assets/images/quote2.png"),
           urlPoject: null,
@@ -130,7 +130,7 @@ export default {
           strong: null,
           p: "",
           image: null,
-          urlPoject: "https://github.com/abdeljail/Saphair-Innovation",
+          urlPoject: "https://github.com/abdeljail/SAPHIR-INNOVATION",
         },
         {
           name: "Site E-Learning",

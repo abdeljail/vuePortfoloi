@@ -1,7 +1,7 @@
 <template>
   <div class="Design">
     <Dfb
-      h1="Back-End"
+      h1="Design"
       p="I value simple content structure, clean design patterns, and thoughtful interactions."
     />
     <Box name="Sckills" :BoxSckills="BoxSckills" />

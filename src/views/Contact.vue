@@ -25,8 +25,7 @@
             <div class="icon">
               <img :src="iconemail" alt=" icon email " />
             </div>
-            <div class="cont">
-khalal.abdeljalil@gmail.com</div>
+            <div class="cont">khalal.abdeljalil@gmail.com</div>
           </div>
         </div>
         <!-- <form @submit="writeMessage">

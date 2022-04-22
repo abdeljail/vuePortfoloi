@@ -1,6 +1,10 @@
 <template>
   <button>
-    <router-link :to="Btn.path" rel="noopener noreferrer">
+    <router-link
+      @click.native="top_page()"
+      :to="Btn.path"
+      rel="noopener noreferrer"
+    >
       {{ Btn.text }}
     </router-link>
   </button>
@@ -12,6 +16,11 @@ export default {
   },
   props: {
     Btn: Object,
+  },
+  methods: {
+    top_page() {
+      window.scroll({ top: 0, left: 0, behavior: "smooth" });
+    },
   },
 };
 </script>
