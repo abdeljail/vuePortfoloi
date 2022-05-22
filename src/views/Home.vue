@@ -132,8 +132,6 @@ export default {
   created() {
     if (localStorage.getItem("mode")) {
       this.isMode = JSON.parse(localStorage.getItem("mode"));
-      console.log(this.isMode);
-      console.log(+localStorage.getItem("mode"));
     }
   },
   methods: {

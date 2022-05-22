@@ -1,6 +1,5 @@
 <template>
   <a
-    @click.native="top_page()"
     :href="link"
     rel="noopener noreferrer"
     :data-name="name"
@@ -30,9 +29,6 @@ export default {
     },
   },
   methods: {
-    // top_page() {
-    //   window.scroll({ top: 0, left: 0, behavior: "smooth" });
-    // },
   },
 };
 </script>
