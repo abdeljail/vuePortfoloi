@@ -1,45 +1,30 @@
 <template>
   <div id="app">
-    <Header :isClose="isClose" :isPath="isPath" />
     <router-view />
-    <Footer />
   </div>
 </template>
 <script>
-import Header from "@/components/global/Header.vue";
-import Footer from "@/components/global/Footer.vue";
 export default {
   name: "App",
-  components: {
-    Header,
-    Footer,
-  },
+  components: {},
   data() {
-    return {
-      isClose: false,
-      isPath: "/Contact",
-    };
+    return {};
   },
-  created() {
-    this.getStateLink();
-  },
-  updated() {
-    this.getStateLink();
-  },
-  methods: {
-    getStateLink() {
-      if (this.$router.history.current.path === "/") {
-        this.isClose = false;
-        this.isPath = "/Contact";
-        return;
-      }
-      this.isClose = true;
-      this.isPath = "/";
-    },
-  },
+  methods: {},
   computed: {},
 };
 </script>
 <style>
-@import "./assets/css/headerFooter.css";
+html,
+body {
+  scroll-behavior: smooth;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  user-select: none;
+}
 </style>
